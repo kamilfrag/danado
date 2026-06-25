@@ -135,6 +135,18 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; font-weight: 800;
 .feature h3 { font-size: 1.15rem; margin-bottom: 8px; }
 .feature p { color: var(--muted); font-size: .95rem; }
 
+/* ===== Notka właściciela ===== */
+.owner-note {
+  background: linear-gradient(160deg, var(--ink-3), var(--ink));
+  border: 1px solid var(--line); border-left: 4px solid var(--orange);
+  border-radius: var(--radius); padding: 28px 30px; margin: 0 0 40px;
+  max-width: 900px;
+}
+.owner-note blockquote { font-size: 1.15rem; line-height: 1.7; color: var(--text); font-style: italic; }
+.owner-note figcaption { margin-top: 16px; display: flex; flex-direction: column; }
+.owner-name { font-family: var(--font-head); font-weight: 800; color: var(--white); font-size: 1.05rem; }
+.owner-role { color: var(--orange); font-size: .9rem; font-weight: 600; }
+
 /* ===== Galeria ===== */
 .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .gallery-item { position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
